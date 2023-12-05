@@ -1,3 +1,6 @@
-eksctl create cluster --name dev --region us-east-1 --version 1.27 --nodegroup-name worker-nodes --node-type t4g.small --node-ami-family=Ubuntu2004 --nodes 1
+eksctl create cluster --name dev --region us-east-1 --version 1.27 --nodegroup-name worker-nodes --node-type t4g.small --nodes 1
+
+
+#eksctl create cluster --name dev --region us-east-1 --version 1.27 --nodegroup-name worker-nodes --node-type t4g.small --node-ami-family=Ubuntu2004 --nodes 1
 
 #eksctl create cluster --name dev-eks --region us-east-1 --version 1.27 --nodegroup-name worker-nodes --node-type t4g.medium --nodes 2
